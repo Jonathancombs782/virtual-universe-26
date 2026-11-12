@@ -5,7 +5,6 @@
   "description": "Note-taker sample for the GitHub Virtual Universe '26 cookbooks",
   "type": "module",
   "scripts": {
-    "list": "node list.mjs",
     "search": "node search.mjs"
   }
 }
