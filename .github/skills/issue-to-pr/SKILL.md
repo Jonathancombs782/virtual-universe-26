@@ -21,6 +21,12 @@ same `gh` commands you ran by hand in Section 1.
    `gh issue list --state open`
 3. Read the issue and the code it mentions: `gh issue view <n>`
 4. Create a branch: `git switch -c fix/issue-<n>`
+When a fix needs library or API documentation, use the Context7 Expert
+agent and Context7 MCP connector to look it up. Send only public
+documentation queries, not repository contents. Cite relevant sources
+in the draft PR. If the agent or connector is unavailable, report it
+instead of claiming the lookup succeeded.
+
 5. Make the smallest change that fixes the issue, and run the project's tests
    if it has any.
 6. Show the changes and obtain approval before committing, pushing explicitly to
